@@ -1,0 +1,139 @@
+Command Line Arguments:
+     dir = your_images/ 
+    arch = resnet 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 6 key-value pairs.
+Below are 6 of them:
+ 1 key:            Basset_hound_01.jpg  label:               basset hound
+ 2 key:            Basset_hound_02.jpg  label:               basset hound
+ 3 key: Black_russian_terrier_01.jpg.JPG  label:      black russian terrier
+ 4 key:                 Cat_01.jpg.JPG  label:                        cat
+ 5 key:             Cotton_wool_01.jpg  label:                cotton wool
+ 6 key:          Hyacinth_macaw_01.jpg  label:             hyacinth macaw
+
+     MATCH:
+
+           Basset_hound_01.jpg: 
+Real:               basset hound   Classifier:           basset, basset hound
+
+           Basset_hound_02.jpg: 
+Real:               basset hound   Classifier:           basset, basset hound
+
+                Cat_01.jpg.JPG: 
+Real:                        cat   Classifier:          tabby, tabby cat, cat
+
+ NOT A MATCH:
+
+Black_russian_terrier_01.jpg.JPG: 
+Real:      black russian terrier   Classifier:               miniature poodle
+
+            Cotton_wool_01.jpg: 
+Real:                cotton wool   Classifier:              teddy, teddy bear
+
+         Hyacinth_macaw_01.jpg: 
+Real:             hyacinth macaw   Classifier:                          macaw
+
+# Total Images 6 # Matches: 3 # NOT Matches: 3
+Warning: Key corgi already exists in dognames_dic with value = 1
+Warning: Key affenpinscher already exists in dognames_dic with value = 1
+Warning: Key afghan hound already exists in dognames_dic with value = 1
+Warning: Key airedale terrier already exists in dognames_dic with value = 1
+Warning: Key alaskan malamute already exists in dognames_dic with value = 1
+Warning: Key american staffordshire terrier already exists in dognames_dic with value = 1
+Warning: Key basset hound already exists in dognames_dic with value = 1
+Warning: Key bloodhound already exists in dognames_dic with value = 1
+Warning: Key borzoi already exists in dognames_dic with value = 1
+Warning: Key boston terrier already exists in dognames_dic with value = 1
+Warning: Key bouvier des flandres already exists in dognames_dic with value = 1
+Warning: Key cairn terrier already exists in dognames_dic with value = 1
+Warning: Key cardigan welsh corgi already exists in dognames_dic with value = 1
+Warning: Key chow chow already exists in dognames_dic with value = 1
+Warning: Key clumber spaniel already exists in dognames_dic with value = 1
+Warning: Key cocker spaniel already exists in dognames_dic with value = 1
+Warning: Key corgi already exists in dognames_dic with value = 1
+Warning: Key dalmatian already exists in dognames_dic with value = 1
+Warning: Key dandie dinmont terrier already exists in dognames_dic with value = 1
+Warning: Key deerhound already exists in dognames_dic with value = 1
+Warning: Key doberman pinscher already exists in dognames_dic with value = 1
+Warning: Key english cocker spaniel already exists in dognames_dic with value = 1
+Warning: Key english springer spaniel already exists in dognames_dic with value = 1
+Warning: Key german shepherd dog already exists in dognames_dic with value = 1
+Warning: Key ibizan hound already exists in dognames_dic with value = 1
+Warning: Key irish setter already exists in dognames_dic with value = 1
+Warning: Key lhasa apso already exists in dognames_dic with value = 1
+Warning: Key maltese already exists in dognames_dic with value = 1
+Warning: Key newfoundland already exists in dognames_dic with value = 1
+Warning: Key norwegian elkhound already exists in dognames_dic with value = 1
+Warning: Key old english sheepdog already exists in dognames_dic with value = 1
+Warning: Key otterhound already exists in dognames_dic with value = 1
+Warning: Key pekingese already exists in dognames_dic with value = 1
+Warning: Key pembroke welsh corgi already exists in dognames_dic with value = 1
+Warning: Key poodle already exists in dognames_dic with value = 1
+Warning: Key pug already exists in dognames_dic with value = 1
+Warning: Key saint bernard already exists in dognames_dic with value = 1
+Warning: Key saluki already exists in dognames_dic with value = 1
+Warning: Key samoyed already exists in dognames_dic with value = 1
+Warning: Key schnauzer already exists in dognames_dic with value = 1
+Warning: Key scottish terrier already exists in dognames_dic with value = 1
+Warning: Key sealyham terrier already exists in dognames_dic with value = 1
+Warning: Key shetland sheepdog already exists in dognames_dic with value = 1
+Warning: Key silky terrier already exists in dognames_dic with value = 1
+Warning: Key staffordshire bull terrier already exists in dognames_dic with value = 1
+Warning: Key tibetan terrier already exists in dognames_dic with value = 1
+Warning: Key vizsla already exists in dognames_dic with value = 1
+Warning: Key walker hound already exists in dognames_dic with value = 1
+
+     MATCH:
+
+           Basset_hound_01.jpg: 
+Real:               basset hound   Classifier:           basset, basset hound  
+PetLabelDog: 1  ClassLabelDog: 1
+
+           Basset_hound_02.jpg: 
+Real:               basset hound   Classifier:           basset, basset hound  
+PetLabelDog: 1  ClassLabelDog: 1
+
+                Cat_01.jpg.JPG: 
+Real:                        cat   Classifier:          tabby, tabby cat, cat  
+PetLabelDog: 0  ClassLabelDog: 0
+
+ NOT A MATCH:
+
+Black_russian_terrier_01.jpg.JPG: 
+Real:      black russian terrier   Classifier:               miniature poodle  
+PetLabelDog: 1  ClassLabelDog: 1
+
+            Cotton_wool_01.jpg: 
+Real:                cotton wool   Classifier:              teddy, teddy bear  
+PetLabelDog: 0  ClassLabelDog: 0
+
+         Hyacinth_macaw_01.jpg: 
+Real:             hyacinth macaw   Classifier:                          macaw  
+PetLabelDog: 0  ClassLabelDog: 0
+
+# Total Images 6 # Matches: 3 # NOT Matches: 3
+
+ ** Statistics from calculates_results_stats() function:
+N Images:  6  N Dog Images:  3  N NotDog Images:  3 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  66.7
+
+ ** Check Statistics - calculated from this function as a check:
+N Images:  6  N Dog Images:  3  N NotDog Images:  3 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  66.7
+Result summery for CNN model architecture <resnet>:
+
+                   Statistics:   Values:
+               # Total Images:         6
+                 # Dog Images:         3
+           # Not-a-Dog Images:         3
+
+               % Correct Dogs:         % Correct Breed:   % Correct "Not-a" Dog:                 % Match:
+                         100.0                     66.7                    100.0                     50.0
+
+
+ Misclassified Breed's of Dog:
+                    Pet Image:                      Classifier Labels:
+         black russian terrier                        miniature poodle
+
+** Total Elapsed Runtime: 0:0:6
