@@ -1,0 +1,12 @@
+         Flower Name ¦ Probability
+
+                rose ¦      83.37%
+           anthurium ¦       3.20%
+            camellia ¦       1.85%
+          snapdragon ¦       1.75%
+            cyclamen ¦       1.62%
+              mallow ¦       1.06%
+    stemless gentian ¦       0.78%
+           sweet pea ¦       0.73%
+     trumpet creeper ¦       0.67%
+         hippeastrum ¦       0.50%
