@@ -21,6 +21,7 @@ In the **Pet Image Classifier** project, a pretrained Convolutional Neutral Netw
 
 ![Sample Result](https://github.com/kollepas/ai_programming_with_python/blob/master/project_01_-_pet_image_classifier/graphics/sample_result.JPG)
 
+So in my example, the vgg model correctly recognized that 3 images are of dogs and 3 are of anything else but dogs. Furthermore, it correctly identified the Basset_hound_01 and Basset_hound_02 as a basset hound but thought that the lazy black russian terrier (in fact I am not even sure if it is a purebred terrier as he used to be a stray dog :grin::dog::question:) is a miniature poodle.
 
 ## License
 ---
