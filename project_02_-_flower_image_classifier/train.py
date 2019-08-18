@@ -4,7 +4,7 @@
 #          Save the trained model as a checkpoint so that it can be loaded later on.
 # INPUTS: The program takes eight input arguments from the command line:
 #     01. <data_dir> (mandatory): directory of image data
-#     02. <save_dir> (mandatory): directory to save checkpoints
+#     02. <save_dir> (optional / default=save_directory): directory to save checkpoints
 #     03. <arch> (optional / default=vgg16): architecture model name
 #     04. <learning_rate> (optional / default=0.001): learning rate in decimal
 #     05. <hidden_units> (optional / default=512): integer number of hidden units
@@ -53,11 +53,11 @@ criterion = nn.NLLLoss()
 
 # Set the optimization algorithm
 optimizer = optim.Adam(model.classifier.parameters(), lr=inp_args.learning_rate)
- 
+
 # Start to train the model
 deep_learning(model, train_dataloader, valid_dataloader, inp_args.epochs, 25, criterion, optimizer, inp_args.gpu)
 
-# Attach the <class_to_idx> mapping from one of the datasets to the model 
+# Attach the <class_to_idx> mapping from one of the datasets to the model
 # in order to save it along with the model
 model.class_to_idx = train_dataset.class_to_idx
 
